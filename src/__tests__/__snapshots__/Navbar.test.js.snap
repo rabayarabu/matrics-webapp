@@ -14,9 +14,15 @@ exports[`renders correctly 1`] = `
         href="/"
         onClick={[Function]}
       >
-        CurrencyList
+        CRIPTOCURRENCY
       </a>
     </div>
+    <button
+      className="btnRegister"
+      type="button"
+    >
+      Register
+    </button>
   </nav>
 </header>
 `;
