@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<header>
+  <nav
+    className="container d-flex-space-be"
+  >
+    <div
+      className="logo"
+    >
+      <a
+        aria-current="page"
+        className="active"
+        href="/"
+        onClick={[Function]}
+      >
+        CurrencyList
+      </a>
+    </div>
+  </nav>
+</header>
+`;
