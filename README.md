@@ -71,7 +71,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd capstone-web-metric-app
+  cd matrics-webapp
   npm install
 ```
 
