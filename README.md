@@ -95,7 +95,7 @@ npm test
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://rabayarabu.github.io/matrics-webapp/)
+- [Live Demo Link](https://criptocurrency.onrender.com/)
 
 ## 👥 Author Rabaya Rabu <a name="authors"></a>
 
