@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 const initialState = {
-  crytoList: [],
+  cryptoList: [],
   isloading: false,
   error: '',
 };
@@ -29,14 +29,14 @@ const cryptoSlice = createSlice({
     builder.addCase(fetchCrypto.fulfilled, (state, action) => ({
       ...state,
       isloading: false,
-      crytoList: action.payload,
+      cryptoList: action.payload,
       error: '',
     }));
 
     builder.addCase(fetchCrypto.rejected, (state, action) => ({
       ...state,
       isloading: false,
-      crytoList: [],
+      cryptoList: [],
       error: action.error.message,
     }));
   },
