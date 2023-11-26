@@ -3,7 +3,7 @@ import cryptoReducer from './Currency/CriptoSlice';
 
 const store = configureStore({
   reducer: {
-    crytoList: cryptoReducer,
+    cryptoList: cryptoReducer,
   },
 });
 export default store;
